@@ -1,17 +1,20 @@
 class Solution(object):
     def combinationSum(self, candidates, target):
-        for i, a in enumerate(candidates):
-            if target == a:
-                direct_candidate = [a]
-                candidates.pop(i)
-            # else:
-                l, r = 0, len(candidates) - 1
-                while l < r:
-                    sums = candidates[l] + candidates[r]
-                    if sums < target:
-                        r -= 1
-                    return sum
-        # return candidates, direct_candidate
+        res = []
+        def dfs(i, cur, total):
+            if total == target:
+                res.append(cur.copy())
+                return
+            if i >= len(candidates) or total > target:
+                return 
+
+            cur.append(candidates[i])
+            dfs(i, cur, total+candidates[i])
+            cur.pop()
+            dfs(i+1, cur, total)
+
+        dfs(0, [], 0)
+        return res
             
 
 
