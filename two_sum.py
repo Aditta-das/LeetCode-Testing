@@ -3,9 +3,7 @@ class Solution(object):
         d = {}
         for i, j in enumerate(nums):
             m = target - j
-            print(f"m val: {m}")
             if m in d:
-                print(d[m], i)
                 return [d[m], i]
             else:
                 d[j] = i

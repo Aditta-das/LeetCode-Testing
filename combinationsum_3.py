@@ -12,7 +12,7 @@ class Solution(object):
         backTrack(1, 0, [], 0)
         return res
 
-k = 2
-n = 18 
+k = 3
+n = 7
 a = Solution()
 print(a.combinationSum3(k, n))
