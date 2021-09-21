@@ -11,7 +11,7 @@ The purpose of the easy questions is to ingrain the basic concepts of a particul
 You will also find a healthy mix of the use of two-three data structures or algorithms in some problems. Look for such problems, for they are a great way to test your understanding of how more than one DS work together to build a beautiful solution.
 That being said, I would recommend moving from the “easy” phase as soon as possible, for its the mediums that will be asked mostly in interviews.
 Must-do Easy questions [ Download the list here ] :
-'''
+```
 13. Roman to Integer
 20. Valid Parentheses
 21. Merge Two Sorted Lists
@@ -40,7 +40,7 @@ Must-do Easy questions [ Download the list here ] :
 705. Design HashSet
 852. Peak Index in a Mountain Array
 1160. Find Words That Can Be Formed by Characters
-'''
+```
 # [MEDIUM]
 
 Once you feel confident enough with the basics, you can move onto the medium ones. Medium problems are pivotal in interview preparation since any decent interview will have at least one instance of medium problems. Moreover some of the advanced data structures and algos like graph, backtracking, dynamic programming are not well covered in the easy section, so the medium problems are a good stop to learn them.
@@ -52,7 +52,7 @@ While you are solving questions of a particular topic, make sure to give the the
 Once you feel fairly confident after say, 60-70 mediums, it's always a good idea to start giving contests. Contests not only simulate the actual interview scenarios by having a time constraint, they also test your ability to be able to come up with solutions on your own without taking help from any other resources.
 Keep looking at better solutions posted by other users, compare your solution with them in terms of time and space complexities, know when to make the tradeoff between the two and ask for help whenever you feel stuck. Be open to learning and the rest will fall in place.
 A comprehensive list of must-do medium problems [ Download the list here ]:
-'''
+```
 5. Longest Palindromic Substring
 11. Container With Most Water
 17. Letter Combinations of a Phone Number
@@ -95,7 +95,7 @@ A comprehensive list of must-do medium problems [ Download the list here ]:
 767. Reorganize String
 1171. Remove Zero Sum Consecutive Nodes from Linked List
 [Other points to note]
-'''
+```
 Leetcode is a wonderful community to learn, discuss and find support in others going through the same process. Leverage it.
 Don't shy away from being a part of discussions, ask for help, or ask questions from others just because you feel it sounds stupid.
 Constantly read articles on Leetcode, not only related to solutions but interview experiences, problems faced during the process etc. You can benefit so much from learning about stories of others here and also derive a sense of belonging to the whole process.
