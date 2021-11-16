@@ -1,0 +1,25 @@
+a = [1...N] list 
+
+If N (ex: 1000 ~ 100000000)increases function 2, 3 time complexity will increase =>
+
+	function 1 => 1 + a[0] ---> O(1)
+	function 2 => sum(a) ---> O(N)
+	function 3 => pair(a) ---> O(N^2)
+
+Lets say we find the complexity,
+
+O(n2 + 2m + 3) => we dont need to say that, because compare with n2 and 2m. 3 is very negligible
+so, O(n2 + 2m) here m and n are separate variable, they are not dependent to each other.
+
+O(n2 + 2n + 3) => we can say O(n2) because all are negligible w.r.t n2.
+
+Time complexities: 
+
+O(1)
+O(log(n))
+O(n)
+O(nlog(n))
+O(n2)
+O(n3)
+O(2^n)
+O(n!)
